@@ -1,0 +1,15 @@
+{
+  "name": "enum-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "schema": "ts-json-schema-generator -f tsconfig.json --path 'example.ts' --expose all --out schema.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-json-schema-generator": "^1.4.0",
+    "typescript": "^5.3.2"
+  }
+}
